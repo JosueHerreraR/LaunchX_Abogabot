@@ -6,7 +6,6 @@ Utilice Figma y Miro para crear los recursos graficos.
 
 <h3>Diagrama de Flujo: (https://miro.com/es/)</h3> 
 
-
 ## **2. Buyer Persona.**
 
 ## **3. Publico Objetivo.**
