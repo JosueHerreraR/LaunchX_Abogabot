@@ -19,16 +19,19 @@ Utilice los Softwares Figma y Miro para crear los recursos graficos.
     * Como Usuario requiere poder `registrar` una cuenta de usuario o `conectarse` en caso de que ya tenga una en la plataforma web.
 
 * ## Diagrama de Flujo: (https://miro.com/es/)
+
 ![diagrama_de_flujo](/img/Diagrama_Abogabot.jpg) 
 
 ## **2. Buyer Persona: (https://www.figma.com/)**
 
 Para este ejemplo del Buffet de abogados, nuestro cliente ideal del proyecto, se representa como un abogado jefe de la firma de abogados asociados.
-![buyer_persona](/img/.jpg) 
+
+![buyer_persona](/img/Buyer_Persona.png) 
 
 ## **3. Publico Objetivo: (https://www.figma.com/)**
 
 En esta parte se muestra una diapositiva sobre nuestros posibles clientes objetivos.
-![publico_Obejetivo](/img/.jpg) 
+
+![publico_Obejetivo](/img/Publico_Objetivo.png) 
 
 ## **4. UI.**
