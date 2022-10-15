@@ -19,7 +19,7 @@ Utilice los Softwares Figma y Miro para crear los recursos graficos.
     * Como Usuario requiere poder `registrar` una cuenta de usuario o `conectarse` en caso de que ya tenga una en la plataforma web.
 
 * ## Diagrama de Flujo: (https://miro.com/es/)
-![diagrama_de_flujo](/img/.jpg) 
+![diagrama_de_flujo](/img/Diagrama_Abogabot.jpg) 
 
 ## **2. Buyer Persona: (https://www.figma.com/)**
 
