@@ -1,7 +1,7 @@
 # Caso AbogaBot
 
 Es un despacho de abogados que quiere automatizar las demandas de sus clientes, esto lo harán a traves de una página web llenando un formulario.
-Utilice los Softwares Figma y Miro para crear los recursos graficos. Esta práctica comprende el desarrollo UI/UX según los requerimientos del cliente, el cual se requiere de un punto de vista de un diseñador.
+Utilice los Softwares Figma y Miro para crear los recursos graficos.
 
 ## **1. Toma de requerimentos.**
 
@@ -20,18 +20,18 @@ Utilice los Softwares Figma y Miro para crear los recursos graficos. Esta práct
 
 * ## Diagrama de Flujo: (https://miro.com/es/)
 
-![diagrama_de_flujo](/img/Diagrama_Abogabot.jpg) 
+![diagrama_de_flujo](./img/Diagrama_Abogabot.jpg) 
 
 ## **2. Buyer Persona: (https://www.figma.com/)**
 
 Para este ejemplo del Buffet de abogados, nuestro cliente ideal del proyecto, se representa como un abogado jefe de la firma de abogados asociados.
 
-![buyer_persona](/img/Buyer_Persona.png) 
+![buyer_persona](./img/Buyer_Persona.png) 
 
 ## **3. Publico Objetivo: (https://www.figma.com/)**
 
 En esta parte se muestra una diapositiva sobre nuestros posibles clientes objetivos.
 
-![publico_Obejetivo](/img/Publico_Objetivo.png) 
+![publico_Obejetivo](./img/Publico_Objetivo.png) 
 
 ## **4. UI.**
