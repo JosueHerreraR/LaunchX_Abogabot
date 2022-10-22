@@ -1,7 +1,7 @@
 # Caso AbogaBot
 
 Es un despacho de abogados que quiere automatizar las demandas de sus clientes, esto lo harán a traves de una página web llenando un formulario.
-Utilice los Softwares Figma y Miro para crear los recursos graficos.
+Utilice los Softwares Figma y Miro para crear los recursos graficos. Esta práctica comprende el desarrollo UI/UX según los requerimientos del cliente, el cual se requiere de un punto de vista de un diseñador.
 
 ## **1. Toma de requerimentos.**
 
