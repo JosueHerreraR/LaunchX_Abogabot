@@ -9,16 +9,14 @@ Caso Abogabot.
 ## 02.- HTML.
 
 Caso: Launcheria.
+<br>
 Caso: Pastelería.
 
 ## 03.- CSS.
 
 Caso: Vacunación.
 
-## 04.- JavaScript.
+## Interacción.
 
-## 05.- VUEJS.
-
-## 06.- VUEX.
-
-## 07.- Azure.
+Para tener una interacción con los proyectos uno por uno dejo este link para su visualización:
+https://josueherrerar.github.io/LaunchX_Practicas/
