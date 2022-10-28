@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h3{
+    padding: 10px;
+    margin: 5px;
+    font-size: 20px;
+}
+.wrap{
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px;
+}
+.wrap h1{
+    font-size: 30px;
+    padding: 15px;
+    margin: 10px;
+    font-weight: 650;
+}
+.column-3{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 1rem;
+    row-gap: 1rem;
+}
+.menu-restaurante{ 
+    text-align: center;
+    background-repeat: no-repeat;
+    border-radius: 6px;
+    display: flex;
+    flex-flow: column;
+    border: 5px solid black;
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+}
+.menu-restaurante ul{
+    text-decoration: none;
+    list-style: none;
+    padding: 10px;
+}
+.menu-restaurante ul li{
+    font-size: 18px;
+    padding: 0.5em;
+}
+.precio-menu{
+    font-weight: bold;
+}
+.precio-menu span{
+    font-size: 2rem;
+    color: #FFC300;
+}
+
+/*Responsive Desing*/
+
+@media (max-width:768px){
+    .columns{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media (max-width:480px){
+    .columns{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
