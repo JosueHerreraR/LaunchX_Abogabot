@@ -1,6 +1,7 @@
 # Practicas LaunchX
 
-En este repositorio se estaran subiendo las practicas realizadas durante el curso de Front-End bajo el siguente orden:
+En este repositorio se estaran subiendo las practicas realizadas durante el curso de Front-End; para eso se dividira en que bloque de programación se realizo, dejando una lista y una pequeña descripción de cada uno. Para tener una interacción con los proyectos uno por uno, dejo este link para su visualización:
+https://josueherrerar.github.io/LaunchX_Practicas/
 
 ## 01.- Introducción.
 
@@ -19,8 +20,3 @@ El cliente de la pastelería necesita ver los diferentes sabores de pasteles, ve
 
 <h3>Caso: Vacunación.</h3>
 Es una página de vacunación y en estos momentos que se está poniendo la tercer dosis en varios estados de la república y que en algunos otros se está poniendo la segunda o incluso la primera sigue siendo muy importante recordar toda esta información.
-
-## Interacción.
-
-Para tener una interacción con los proyectos uno por uno dejo este link para su visualización:
-https://josueherrerar.github.io/LaunchX_Practicas/
