@@ -34,4 +34,24 @@ En esta parte se muestra una diapositiva sobre nuestros posibles clientes objeti
 
 ![publico_Obejetivo](./img/Publico_Objetivo.png) 
 
-## **4. UI.**
+## **4. UI.(https://www.figma.com/)**
+
+Para el Wireframe, se tomo en cuenta los colores Azul Marino y Blanco, pero ademas se agregaron los colores Violeta y Azul Cielo para un mejor contraste; Además para tener mejor comodidad, se hizo la maquetación desde una perspectiva de un telefono movil, esto es debido a que la mayoria del publico objetivo accedería desde un telefono movil. La mejor forma de presentar esta parte estara dividido en 3 partes; Primero mostrare el Inicio de Sesión:
+
+![display_inicio](./img/Display_Inicio.png) 
+![display_login](./img/Display_Login.png) 
+![ingresar_correo_vacio](./img/Ingresar_correo_Vacio.png) 
+![ingresar_correo](./img/Ingresar_correo.png) 
+![ingresar_correo_cargando](./img/Ingresar_correo_Cargando.png) 
+
+Para la segunda parte se mostrada el Dashboard:
+
+![dashboard](./img/Dashboard.png) 
+![dashboard_buffete](./img/Dashboard_Buffete.png) 
+![dashboard_busqueda](./img/Dashboard_Busqueda.png) 
+![dashboard_vacio](./img/Dashboard_Vacio.png) 
+
+Para la tercera y ultima parte mostrare el Metodo de pago:
+
+![pantalla_pago](./img/Pantalla_pago.png) 
+![pantalla_pago_datos](./img/Pantallla_pago_daots.png) 
