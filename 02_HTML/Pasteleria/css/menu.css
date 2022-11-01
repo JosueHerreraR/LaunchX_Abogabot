@@ -3,6 +3,13 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+/*Formulario*/
+
+h1{
+    text-align: center;
+    font-size: 30px;
+}
 h3{
     padding: 10px;
     margin: 5px;
@@ -52,6 +59,50 @@ h3{
     color: #FFC300;
 }
 
+/*Tablas*/
+
+.container-table {
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+.table {
+    width: 100%;
+    border: 3px solid black;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    table-layout: fixed;
+}
+.table caption {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 8px 0px;
+}
+.table tr {
+    background-color: rgba(192, 192, 192, 0.293);
+    border: 2px solid black;
+}
+.table th, .table td {
+    font-size: 18px;
+    padding: 8px;
+    text-align: center;
+}
+.table thead th{ 
+    text-transform: uppercase;
+    background-color: black;
+    color: #fdfbfb;
+    font-size: 15px;
+}
+.table tbody tr:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.table tbody td input {
+    background-color: white;
+}
+
 /*Responsive Desing*/
 
 @media (max-width:768px){
@@ -62,5 +113,38 @@ h3{
 @media (max-width:480px){
     .columns{
         grid-template-columns: repeat(1,1fr);
+    }
+}
+@media screen and (max-width: 600px) {
+    .table {
+        border: 0px;
+    }
+    .table caption {
+        font-size: 22px;
+    }
+    .table thead {
+        display: none;
+    }
+    .table tr {
+        margin-bottom: 8px;
+        border-bottom: 4px solid #ddd;
+        display: block;
+    }
+    .table th, .table td {
+        font-size: 12px;
+    }
+    .table td {
+        display: block;
+        border-bottom: 1px solid #ddd;
+        text-align: right;
+    }
+    .table  td:last-child {
+        border-bottom: 0px;
+    }
+    .table td::before {
+        content: attr(data-label);
+        font-weight: bold;
+        text-transform: uppercase;
+        float: left;
     }
 }
