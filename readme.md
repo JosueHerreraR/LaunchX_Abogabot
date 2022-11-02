@@ -1,7 +1,7 @@
 # Practicas LaunchX
 
 En este repositorio se estaran subiendo las practicas realizadas durante el curso de Front-End; para eso se dividira en que bloque de programación se realizo, dejando una lista y una pequeña descripción de cada uno. Para tener una interacción con los proyectos uno por uno, dejo este link para su visualización:
-https://josueherrerar.github.io/LaunchX_Practicas/
+<a href="https://josueherrerar.github.io/LaunchX_Practicas/">Practicas de Launch-X</a>
 
 ## 01.- Introducción.
 
