@@ -451,7 +451,7 @@ footer{
         position: fixed;
         width: 100%;
         height: 100vh;
-        background-image: linear-gradient(to bottom, rgba(0,0,0,.3), transparent);
+        background-color: #151D56;
         top: 80px;
         left: -100%;
         text-align: center;
@@ -464,11 +464,11 @@ footer{
     }
     nav ul li a{
         font-size: 20px;
-        color: #333751;
+        color: #BFC1D1;
     }
     li a:hover, li a.active{
         background: none;
-        color: #0829B1;
+        color: #164DBC;
     }
     #check:checked ~ ul{
         left:0;
