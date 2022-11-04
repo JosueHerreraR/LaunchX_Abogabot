@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="author" content="Joel Josue Herrera Reyes"/>
+        <meta name="copyright" content="©2022 InterDesing">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="../03_CSS/img/Vacunacion.png" type="image/x-icon">
+        <link rel="stylesheet" href="../03_CSS/css/vacunacion.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+        <title>Vacunación</title>
+    </head>
+    <body>
+
+        <header>
+            <nav>
+                <input type="checkbox" id="check">
+                <label for="check" class="checkbtn">
+                    <i class="fas fa-bars"></i>
+                </label>
+                <a href="../03_CSS/vacunacion.html" class="enlace">
+                    <img src="../03_CSS/img/Vacunacion.png" alt="" class="logo">
+                </a>
+                <ul>
+                    <li><a href="#">Datos</a></li>
+                    <li><a href="#">Educación</a></li>
+                    <li><a href="#">Noticias</a></li>
+                    <li><a href="#">Regulación</a></li>
+                    <li><a class="active" href="#">Cazando Mitos</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section class="contenedor sobre-nosotros" id="Banner">
+                <div class="contenedor-sobre-nosotros">
+                    <div class="contenido-textos title">
+                        <h2 class="titulo">Combatimos el virus con la ayuda de las vacunas</h2>
+                        <p>Detengamos esta pandemia matando el virus con una vacuna, 
+                            no dejaremos que tú y tu familia se infecten.</p>
+                        <p class="iconos"><i class="fa-solid fa-shield-heart"></i> La mejor protección</p>
+                        <p class="iconos"><i class="fa-solid fa-star"></i> Vacunas seleccionadas</p>
+                    </div>
+                    <img src=".//img/enfermera.webp" alt="" class="imagen-about-us">
+                </div>
+                <div class="formulario">
+                    <h2><i class="fa-solid fa-clock"></i> Programe su vacunación:</h2>
+                    <form action="controlador_vacuna.php" class="form" method="post">
+                        <table>
+                            <tr>
+                                <th><label for="lugar"><i class="fa-solid fa-location-dot"></i> Lugar</label></th>
+                                <th><label for="fecha"><i class="fa-solid fa-calendar"></i> Fecha</label></th>
+                                <th><label for="vacuna"><i class="fa-solid fa-syringe"></i> Tipo de Vacuna</label></th>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <select name="lugar" id="lugar" value="lugar" required class="formBloque">
+                                        <option value="Sin_seleccionar" selected>No ha seleccionado algun lugar</option>
+                                        <option value="general">Hospital General "Jesús Kumate Rodriguez"</option>
+                                        <option value="galenia">Hospital Galenia</option>
+                                        <option value="hgr">Hospital IMSS - HGR No. 17</option>
+                                        <option value="privada">Imss Hospital General de Zona #3</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <input type="date" id="fecha" name="fecha" required class="formBloque">
+                                </td>
+                                <td>
+                                    <select name="vacuna" id="vacuna" value="vacuna" required class="formBloque">
+                                        <option value="Sin_seleccionar" selected>No ha seleccionado una vacuna</option>
+                                        <option value="astraZeneca">AstraZeneca</option>
+                                        <option value="sinovac">Sinovac</option>
+                                        <option value="pfizer">Pfizer</option>
+                                        <option value="moderna">Moderna</option>
+                                    </select>
+                                </td>
+                            </tr>
+                        </table>
+                        <input type="submit" value="Enviar" class="btn">
+                    </form>
+                </div>
+            </section>
+
+            <section class="course contenedor sobre-nosotros" id="Porque_Vacunarse">
+                <div class="vacunas">
+                    <img src="../03_CSS/img/backgroundVacunas.png" alt="">
+                </div>
+                <div class="title">
+                    <h2 class="titulo">¿Por qué debo vacunarme?</h2>
+                    <p>Para evitar cualquier duda sobre la aplicación de la vacuna del Covid-19, 
+                        hemos identificado los siguientes 4 beneficios de la vacunación contra del Covid-19:</p>
+                </div>
+                <div class="box-container">
+                    <div class="box">
+                        <button class="btn"><i class="fa-solid fa-arrows-turn-to-dots"></i></button>
+                        <h3>Minimizar la propagación de los virus</h3>
+                        <p>Se ha demostrado que la vacuna es eficaz para 
+                            evitar que alguien se infecte con Coronavirus.</p>
+                    </div>
+                    <div class="box">
+                        <button class="btn"><i class="fa-solid fa-shield-virus"></i></button>
+                        <h3>Formación de anticuerpos</h3>
+                        <p>Se ha demostrado que la vacuna del Covid-19 ayuda a formar 
+                            la respuesta de anticuerpos del sistema inmunitario.</p>
+                    </div>
+                    <div class="box">
+                        <button class="btn"><i class="fa-solid fa-users"></i></button>
+                        <h3>Proteger a las personas cercanas</h3>
+                        <p>Los beneficios de la vacuna del Covid-19, es que 
+                            ayudan a proteger a las personas que nos rodean.</p>
+                    </div>
+                    <div class="box">
+                        <button class="btn"><i class="fa-solid fa-square-poll-horizontal"></i></button>
+                        <h3>Crear una inmunidad grupal</h3>
+                        <p>La vacuna del Covid-19 también es beneficiosa para crear 
+                            una inmunidad grupal o inmunidad de rebaño.</p>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="title-izquierda">
+                    <h2 class="titulo">Consejos antes de Vacunarse</h2>
+                    <p>El éxito de las vacunas está fuertemente influenciado por la fuerza del sistema 
+                        inmunológico del cuerpo. Por lo tanto, hay varias cosas que se pueden probar 
+                        para que la vacuna del Covid-19 pueda tener mejor efecto en usted:</p>
+                </div>
+            </section>
+            <section class="contenedor sobre-nosotros" id="Consejos">
+                
+                <div class="contenedor-sobre-nosotros">
+                    <img src=".//img/chica_paciente.png" alt="" class="imagen-about-us">
+                    <div class="consejos_container">
+                        <section>
+                            <details>
+                                <summary><i class="fa-solid fa-square-virus"></i> Evitar las bebidas alcohólicas.</summary>
+                                <p>No hay que consumir bebidas alcohólicas, ni tampoco fumar tabaco durante un lapso de 72 horas;
+                                    esto es debido a que puede haber efectos secundarios al momento de vacunarse.
+                                </p>
+                            </details>
+                            <details>
+                                <summary><i class="fa-solid fa-square-xmark"></i> Evitar el estrés.</summary>
+                                <p>El estrés tiene un efecto profundo en el sistema inmunológico. Además, el estrés prolongado puede 
+                                    aumentar la producción de cortisol y el estrés oxidativo en el cuerpo.</p>
+                            </details>
+                            <details>
+                                <summary><i class="fa-solid fa-square-poll-vertical"></i> Comer alimentos saludables.</summary>
+                                <p>Al tener una buena alimentación saludable, es muy importante lo que puede afectar a la capacidad de nuestro 
+                                    organismo para prevenir y combatir las infecciones y para recuperarse de ellas.</p>
+                            </details>
+                            <details>
+                                <summary><i class="fa-solid fa-square-check"></i> Dormir lo suficiente.</summary>
+                                <p>Tomarse 30 minutos antes de dormir para realizar una actividad relajante; Dormir lo suficiente es 
+                                    importante. Dormir bien ayuda a mantener la mente y el cuerpo sanos.</p>
+                            </details>
+                            <details>
+                                <summary><i class="fa-brands fa-square-viadeo"></i> Hacer ejercicio o actividad física.</summary>
+                                <p>Las personas que hacen ejercicio después de recibir la vacuna, produjeron más anticuerpos en 
+                                    las siguientes cuatro semanas que aquellos que no realizaron actividad física.</p>
+                            </details>
+                        </section>
+                    </div>
+                </div>
+            </section>
+            <section class="contenedor sobre-nosotros" id="Emergencia">
+                <div class="title">
+                    <h2 class="titulo">Contacto de Emergencia</h2>
+                    <p>Póngase en contacto con nosotros con los metodos que figuran a continuación. 
+                        Si usted o su familia se sienten mal y/o tienen síntomas similares con el Covid-19, 
+                        asegúrese también de cuidarse antes de informarnos:</p>
+                </div>
+                <div class="contenedor-sobre-nosotros">
+                    <div class="contenido-textos emergencia">
+                        <div class="emergencia-container"> 
+                            <div class="caja">
+                                <h3><i class="fa-solid fa-phone-volume"></i> Llamada</h3>
+                                <p>998.456.7891</p>
+                                <button class="seccion3">Llama Ahora</button>
+                            </div>
+                            <div class="caja">
+                                <h3><i class="fa-solid fa-comment-dots"></i> Chat</h3>
+                                <p>998.456.7891</p>
+                                <button class="seccion3">Chatea Ahora</button>
+                            </div>
+                        </div>
+                        <div class="emergencia-container">
+                            <div class="caja">
+                               <h3><i class="fa-solid fa-video"></i> Videollamada</h3>
+                               <p>998.456.7891</p>
+                               <button class="seccion3">Videollamada Ahora</button>
+                           </div>
+                           <div class="caja">
+                               <h3><i class="fa-solid fa-envelope"></i> Email</h3>
+                               <p>998.456.7891</p>
+                               <button class="seccion3">Mensajea Ahora</button>
+                           </div>
+                        </div>
+                    </div>
+                    <img src=".//img/chico_enfermero.png" alt="" class="imagen-about-us">
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="container_footer">
+                <div class="box_footer">
+                    <h3>Vacunación</h3>
+                    <p>Nuestro actual objetivo es</p> 
+                    <p>poder ayudar al mundo a liberarse</p> 
+                    <p>de la pandemia del Covid-19</p>
+                </div>
+                <div class="box_footer">
+                    <h2>¿Quiénes Somos?</h2>
+                    <a href="#">Sobre Nosotros</a>
+                    <a href="#">Caracteristicas</a>
+                    <a href="#">Noticias</a>
+                </div>
+                <div class="box_footer">
+                    <h2>Compañia</h2>
+                    <a href="#">¿Cómo trabajamos?</a>
+                    <a href="#">Capital</a>
+                    <a href="#">Seguridad</a>
+                </div>
+                <div class="box_footer">
+                    <h2>Soporte</h2>
+                    <a href="#">FAQs</a>
+                    <a href="#">Soporte Central</a>
+                    <a href="#">Contactanos</a>
+                </div>
+            </div>
+        </footer>
+        <footer>
+            <div class="container_footer">
+                <div class="box_footer">
+                    <p>&copy; 2022 Vacunación Launch-X. Todos los derechos reservados.</p> 
+                </div>
+                <div class="box_footer">
+                    <p>Terminos y condiciones. Politicas de privacidad.</p>
+                </div>
+            </div>
+        </footer>
+
+    </body>
+</html>
