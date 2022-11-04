@@ -28,11 +28,6 @@ header{
     height: 50px;
     margin-left: 10px;
 }
-.title{
-    margin-bottom: 40px;
-    font-size: 50px;
-    font-weight: 600;
-}
 a{
     text-decoration: none;
     list-style: none;
@@ -70,8 +65,10 @@ p{
     justify-content: center;
     align-items: center;
 }
-.content h2{
-    font-size: 45px;
+.content title{
+    margin-bottom: 40px;
+    font-size: 50px;
+    font-weight: 600;
 }
 .casillas{
     padding: 30px;
@@ -133,7 +130,7 @@ p{
 }
 .js h3{
     font-size: 20px;
-    color: #F0DB4F;
+    color: #FFC845;
 }
 .box-container .box p {
     padding: 0 15px;
@@ -164,15 +161,16 @@ footer .derechos p{
     align-items: center;
 }
 
-@media (max-width: 768px){
-    .title{
+@media (min-width: 768px){
+    .content .title{
+        font-size: 30px;
+        padding: 10px;
+        margin: 10px;
         margin-bottom: 0;
-        font-size: 40px;
     }
     .casillas{
         height: 100vh;
     }
-
     .navbar{
         display: none;
     }
