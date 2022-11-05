@@ -20,3 +20,14 @@ El cliente de la pastelería necesita ver los diferentes sabores de pasteles, ve
 
 <h3>Caso: Vacunación.</h3>
 Es una página de vacunación y en estos momentos que se está poniendo la tercer dosis en varios estados de la república y que en algunos otros se está poniendo la segunda o incluso la primera sigue siendo muy importante recordar toda esta información.
+
+## 04.- JavaScript.
+
+<h3>Caso: Pokedex.</h3>
+El usuario debera ingresar el nombre o número del Pokemon en la Pokedex, cuyos datos se consultaran en un API de pokeapi y debera mostrar los siguientes datos dentro de la pantalla y la información del pokemón ingresado:
+ 
+* Nombre
+* Imágen
+* Tipo de pokemón
+* Estadísticas
+* Movimientos
