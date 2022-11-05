@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="author" content="Joel Josue Herrera Reyes"/>
+        <meta name="copyright" content="©2022 InterDesing">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pasteleria</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+        <link rel="stylesheet" href="../Pasteleria/css/pasteleria.css">
+        <link rel="shortcut icon" href="../Pasteleria/img/Pasteleria_logo.png" type="image/x-icon">
+        <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+    </head>
+    <body>       
+        <header class="header">
+            <a href="../Pasteleria/pasteleria.html" class="logo">
+                <img src="../Pasteleria/img/Pasteleria.png" alt="">
+            </a>
+            <nav class="navbar">
+                <a href="../Pasteleria/pasteleria.html">Inicio</a>
+                <a href="../Pasteleria/paquetes.html">Menu</a>
+                <a href="#contacto">Contacto</a>
+                <a href="../Pasteleria/login/login_pasteleria.html">Login</a>
+            </nav>
+            <div class="icons">
+                <div class="fas fa-search" id="search-btn"></div>
+                <div class="fas fa-shopping-cart" id="cart-btn"></div>
+                <div class="fas fa-bars" id="menu-btn"></div>
+            </div>
+            <div class="search-form">
+                <input type="search" id="search-box" placeholder="Busca tu pastel..">
+                <label for="search-box" class="fas fa-search"></label>
+            </div>
+        </header>
+
+        <section class="home" id="Presentacion">
+            <div class="content">
+                <h3>Pasteleria Launch-X</h3>
+                <p>Los mejores Pasteles de Cancún, ven y prueba nuestra rica 
+                    variedad de Pasteles. Creeme que no te vas a arrepentir.</p>
+                <a href="../Pasteleria/paquetes.html" class="btn">Arma tu paquete</a>
+            </div>
+        </section>
+
+        <section class="about" id="Arma_menu">
+            <h1 class="heading"> <span>Arma</span> tu menu </h1>
+            
+            <div class="row">
+                
+                <div class="image">
+                    <img src="../Pasteleria/img/chocolate.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>¿Qué hace muy especial nuestros pasteles?</h3>
+                    <p>
+                        Nuestra pasión por la repostería nos ha inspirado a hornear los mejores y 
+                        crear pasteles únicos, para acompañarlos con un buen café; pero sobre todo a reinventarnos 
+                        e innovar todos los días. Así que ven y prueba nuestra rica variedad de Pasteles.
+                        Creeme que no te vas a arrepentir.
+                    </p>
+                    <center><a href="../Pasteleria/paquetes.html" class="btn">Arma tu menu</a></center>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact" id="Ubicación">
+            <h1 class="heading"> <span>Donde</span> encontrarnos </h1>
+
+            <div class="row">
+                <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4057.8573591253876!2d-86.85255445272698!3d21.149554605484852!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4c2b8fc30fb135%3A0x8587b955e3a0f3ae!2sPasteler%C3%ADa%20Tentazioni!5e0!3m2!1ses-419!2smx!4v1666472487257!5m2!1ses-419!2smx" allowfullscreen="" loading="lazy"></iframe>
+                <form action="controlador_contacto.php">
+                    <h3>Pongase en contacto</h3>
+                    <div class="inputBox">
+                        <span class="fas fa-user"></span>
+                        <input type="text" placeholder="Nombre">
+                    </div>
+                    <div class="inputBox">
+                        <span class="fas fa-envelope"></span>
+                        <input type="email" placeholder="Correo">
+                    </div>
+                    <div class="inputBox">
+                        <span class="fas fa-phone"></span>
+                        <input type="number" placeholder="N° Telefonico">
+                    </div>
+                    <input type="submit" value="contact now" class="btn">
+                </form>
+            </div>
+        </section>
+
+        <footer class="pie-pagina" id="contacto">
+            <div class="grupo-1">
+                <div class="box">
+                    <figure>
+                        <a href="../Pasteleria/pasteleria.html">
+                            <img src="../Pasteleria/img/Pasteleria.png" alt="Logo de SLee Dw">
+                        </a>
+                    </figure>
+                </div>
+                <div class="box">
+                    <h2>SOBRE NOSOTROS</h2>
+                    <p>Telefono: (998) 3611311</p>
+                    <p>Correo Electrónico:</p>
+                    <p>pasteleria_launch@outlook.com</p>
+                    <h2>UBICACIÓN</h2>
+                    <p>Plaza Italia</p>
+                    <p>Av. Kohunlich, Interior Sur</p>
+                    <p>77533 Cancún Q.R</p>
+                </div>
+                <div class="box">
+                    <h2>SIGUENOS</h2>
+                    <div class="red-social">
+                        <a href="#" class="fa fa-facebook"></a>
+                        <a href="#" class="fa fa-instagram"></a>
+                        <a href="#" class="fa fa-twitter"></a>
+                        <a href="#" class="fa fa-youtube"></a>
+                        <a href="#" class="fa fa-pinterest"></a>
+                        <a href="#" class="fa fa-linkedin"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="grupo-2">
+                <small>&copy; 2022 <b>Herrera Reyes Joel Josue</b> - Todos los Derechos Reservados.</small>
+            </div>
+        </footer>
+
+        <script src="../Pasteleria/js/script.js"></script>
+
+    </body>
+</html>

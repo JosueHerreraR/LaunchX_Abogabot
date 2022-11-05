@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="author" content="Joel Josue Herrera Reyes"/>
+        <meta name="copyright" content="©2022 InterDesing">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulario - Pasteleria</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+        <link rel="stylesheet" href="../Pasteleria/css/pasteleria.css">
+        <link rel="stylesheet" href="../Pasteleria/css/paquetes.css">
+        <link rel="shortcut icon" href="../Pasteleria/img/Pasteleria_logo.png" type="image/x-icon">
+        <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+
+    </head>
+    <body>       
+        <header class="header">
+            <a href="../Pasteleria/pasteleria.html" class="logo">
+                <img src="../Pasteleria/img/Pasteleria.png" alt="">
+            </a>
+            <nav class="navbar">
+                <a href="../Pasteleria/pasteleria.html">Inicio</a>
+                <a href="../Pasteleria/paquetes.html">Menu</a>
+                <a href="#contacto">Contacto</a>
+                <a href="../Pasteleria/login/login_pasteleria.html">Login</a>
+            </nav>
+            <div class="icons">
+                <div class="fas fa-search" id="search-btn"></div>
+                <div class="fas fa-shopping-cart" id="cart-btn"></div>
+                <div class="fas fa-bars" id="menu-btn"></div>
+            </div>
+            <div class="search-form">
+                <input type="search" id="search-box" placeholder="Busca tu pastel..">
+                <label for="search-box" class="fas fa-search"></label>
+            </div>
+        </header>
+
+        <section class="home" id="Presentacion">
+            <div class="content">
+                <h3>Ingresa tus datos</h3>
+                <p>En el siguiente formulario ingrese el tipo de pastel y sus posibles combinaciones</p>
+            </div>
+        </section>
+
+        <section>
+            <form class="form-register">
+                <h4>Registro de Pastel</h4>
+                <label class="label"for="">Datos del Cliente:</label>
+                <input class="controls" type="text" name="nombres" id="nombres" placeholder="Ingrese su Dirección">
+                <input class="controls" type="email" name="apellidos" id="apellidos" placeholder="Ingrese su Correo">
+                <label class="label"for="">Elige una fecha</label>
+                <input class="controls" type="date" name="correo" id="correo" placeholder="Ingrese su Contraseña">
+                <label class="label"for="">Elige el paquete</label>
+                <select class="controls" name="" id="">
+                    <option value="Sin_Seleccion">No se ha seleccionado nada</option>
+                    <option value="">Pasteles Tradicionales</option>
+                    <option value="">Pasteles para Fiestas</option>
+                    <option value="">Pasteles para eventos formales</option>
+                </select>
+                <label class="label" for="">Pasteles Tradicionales</label>
+                <select class="controls" name="" id="">
+                    <option value="Sin_Seleccion">No se ha seleccionado nada</option>
+                    <option value="Pastel_Vainilla">Vainilla</option>
+                    <option value="Pastel_Chocolate">Chocolate</option>
+                    <option value="Pastel_Fresa">Fresa</option>
+                    <option value="Pastel_Oreo">Oreo</option>
+                    <option value="Pastel_3_Leches">3 Leches</option>
+                </select>
+                <label class="label" for="">Decoraciones</label>
+                <select class="controls" name="" id="">
+                    <option value="Sin_Seleccion">No se ha seleccionado nada</option>
+                    <option value="Frutos_Rojos">Frutos Rojos</option>
+                    <option value="Chocolate">Chocolate</option>
+                    <option value="Flores">Flores</option>
+                    <option value="Merengue">Merengue</option>
+                    <option value="Escarcha">Escarcha</option>
+                </select>
+                <label class="label" for="">Pasteles para Fiestas</label>
+                <select class="controls" name="" id="">
+                    <option value="Sin_Seleccion">No se ha seleccionado nada</option>
+                    <option value="Pastel_Goku">Pastel de Goku</option>
+                    <option value="Pastel_Batman">Pastel de Batman</option>
+                    <option value="Pastel_SpiderMan">Pastel de SpiderMan</option>
+                    <option value="Pastel_Sherk">Pastel de Sherk</option>
+                    <option value="Pastel_Naruto">Pastel de Naruto</option>
+                </select>
+                <label class="label" for="">Adornos</label>
+                <select class="controls" name="" id="">
+                    <option value="Sin_Seleccion">No se ha seleccionado nada</option>
+                    <option value="Más_Juguetes">Más Juguetes</option>
+                    <option value="Feliz_Cumpleaños">Feliz Cumpleaños</option>
+                    <option value="Otra_plataforma">Otra plataforma</option>
+                    <option value="Nombre_cumpleañero">Nombre del cumpleañero</option>
+                    <option value="Chispas_Chocolate">Chispas de Chocolate</option>
+                </select>
+                <label class="label" for="">Pasteles para eventos formales</label>
+                <select class="controls" name="" id="">
+                    <option value="Sin_Seleccion">No se ha seleccionado nada</option>
+                    <option value="Pastel_Velvet">Pastel Red Velvet</option>
+                    <option value="Pastel_Vegano">Pastel Vegano</option>
+                    <option value="Pastel_Gelatina">Pastel de Gelatina</option>
+                    <option value="Pastel_Bodas">Pastel de Bodas</option>
+                    <option value="Pastel_Bautismo">Pastel Para Bautismo</option>
+                </select>
+                <label class="label" for="">Complementos</label>
+                <select class="controls" name="" id="">
+                    <option value="Sin_Seleccion">No se ha seleccionado nada</option>
+                    <option value="Frambuesas">Frambuesas</option>
+                    <option value="Arandanos">Arandanos</option>
+                    <option value="Cerezas">Cerezas</option>
+                    <option value="Ganache">Ganache</option>
+                    <option value="Merengue">Merengue</option>
+                </select>
+
+                <input class="botons" type="submit" value="Solicitar el Pastel">
+            </form>
+        </section>
+
+        <footer class="pie-pagina" id="contacto">
+            <div class="grupo-1">
+                <div class="box">
+                    <figure>
+                        <a href="../Pasteleria/inventario.html">
+                            <img src="../Pasteleria/img/Pasteleria.png" alt="Logo de SLee Dw">
+                        </a>
+                    </figure>
+                </div>
+                <div class="box">
+                    <h2>SOBRE NOSOTROS</h2>
+                    <p>Telefono: (998) 3611311</p>
+                    <p>Correo Electrónico:</p>
+                    <p>pasteleria_launch@outlook.com</p>
+                    <h2>UBICACIÓN</h2>
+                    <p>Plaza Italia</p>
+                    <p>Av. Kohunlich, Interior Sur</p>
+                    <p>77533 Cancún Q.R</p>
+                </div>
+                <div class="box">
+                    <h2>SIGUENOS</h2>
+                    <div class="red-social">
+                        <a href="#" class="fa fa-facebook"></a>
+                        <a href="#" class="fa fa-instagram"></a>
+                        <a href="#" class="fa fa-twitter"></a>
+                        <a href="#" class="fa fa-youtube"></a>
+                        <a href="#" class="fa fa-pinterest"></a>
+                        <a href="#" class="fa fa-linkedin"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="grupo-2">
+                <small>&copy; 2022 <b>Herrera Reyes Joel Josue</b> - Todos los Derechos Reservados.</small>
+            </div>
+        </footer>
+
+        <script src="../Pasteleria/js/script.js"></script>
+
+    </body>
+</html>
