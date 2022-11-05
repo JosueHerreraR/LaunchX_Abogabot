@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="author" content="Joel Josue Herrera Reyes"/>
+        <meta name="copyright" content="©2022 InterDesing">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="../04_JS/img/Pokeball.png" type="image/x-icon">
+        <link rel="stylesheet" href="../04_JS/css/pokedex.css">
+        <title>Pokedex</title>
+    </head>
+    <body>
+        <section>
+            <h1>Pokedex Launch-X</h1>
+            <form action="" onsubmit="searchPokemon(event)">
+                <input type="text" name="pokemon" placeholder="Busca tu Pokemon:" autocomplete="off">
+            </form>
+            <div data-poke-card class="poke-card">
+                <div data-poke-name>Pokedex</div>
+                <div data-poke-img-container class="img-container">
+                    <img data-poke-img class="poke-img" src="../04_JS/img/Pokeball.png"/>
+                </div>
+                <div data-poke-id></div>
+                <div data-poke-types class="poke-types"></div>
+                <div data-poke-stats class="poke-stats"></div>
+            </div>
+        </section>
+        <script src="../04_JS/js/pokedex.js"></script>
+    </body>
+</html>
