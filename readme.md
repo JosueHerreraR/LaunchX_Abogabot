@@ -1,7 +1,7 @@
 # Prácticas - Misión FrontEnd
 
 En este repositorio se estarán subiendo las practicas realizadas durante el curso de Front-End; para eso se dividirá en que bloque de programación se realizó, dejando una lista y una pequeña descripción de cada uno. Para tener una interacción con los proyectos uno por uno, dejo este enlace para su visualización:
-<a href="https://josueherrerar.github.io/LaunchX_Practicas/">Practicas de Launch-X</a>
+<a href="https://josueherrerar.github.io/LaunchX_FrontEnd/">Practicas de Launch-X</a>
 
 ## 01.- Introducción.
 
